@@ -1,0 +1,14 @@
+.navbar {
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Bigelow Rules';
+}
+.navbar a {
+    padding: 30px;
+    color: #0ccac4;
+    text-decoration: none;
+}
+
+.navbar a.main-nav-active {
+    color: Orange;
+}
