@@ -10,12 +10,17 @@ In the project root directory run
 
 ` npm run client-setup `
 
-Run the following to start the server and client concurrently:
+Run the following to start the server on port 5000
 
-` npm run dev `
+` npm run server `
 
-Server runs on http://localhost:5000
-Browser runs on http://localhost:3000
+Open the url http://localhost:5000 in the web browser to see the server is up and running.
+
+Open another instance of terminal and in the project root directory run the following to start the client.
+
+` npm run client`
+
+Open the url http://localhost:3000 in the web browser to see the the client is up and running.
 
 ### Notes:
 This project includes HTML5 semantics to support Accessibility. To add further support of accessibility refer to [W3C Accessibility](https://www.w3.org/standards/webdesign/accessibility).
